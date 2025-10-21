@@ -1,33 +1,10 @@
-# ------------------------------------
-# 1. ENVIRONMENT AND DEPENDENCIES (.venv, Locks)
-# ------------------------------------
-# Python Virtual Environment
 .venv/
-.lock
-uv.lock # uv package lock file
-
 # Python-specific compiled files
 __pycache__/
 *.pyc
 
-# ------------------------------------
-# 2. SECRETS AND CREDENTIALS
-# ------------------------------------
-# Environment variables file containing API keys and secrets
 .env 
 
-# ------------------------------------
-# 3. IDE / OS Specific Files
-# ------------------------------------
-# VS Code files (User-specific configuration)
 .vscode/
 
-# Jupyter Notebook Checkpoints (Avoid noisy version control)
 .ipynb_checkpoints/
-
-# ------------------------------------
-# 4. DATA AND CACHE (Project Artifacts)
-# ------------------------------------
-# The raw data folder containing PDFs/images/embeddings
-# You generally don't commit large data files or sensitive documents
-data/
