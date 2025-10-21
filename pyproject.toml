@@ -1,0 +1,22 @@
+[project]
+name = "multimodal_rag"
+version = "0.1.0"
+dependencies = [
+  "langchain",
+  "langchain-core",
+  "langchain-community",
+  "ipykernel>=7.0.1",
+  "pymupdf>=1.26.5",
+  "numpy>=2.3.4",
+  "torch>=2.9.0",
+  "pillow>=12.0.0",
+  "transformers>=4.57.1",
+  "faiss-cpu>=1.12.0",
+  "scikit-learn>=1.7.2",
+  "langchain-google-genai>=3.0.0",
+  "langchain-text-splitters>=1.0.0",
+  "sentencepiece>=0.2.1",
+  "protobuf>=6.33.0",
+  "tokenizers>=0.22.1",
+  "torchvision>=0.24.0",
+]

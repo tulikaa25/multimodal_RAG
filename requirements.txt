@@ -1,0 +1,16 @@
+langchain
+langchain-core
+langchain-community
+langchain_google_genai 
+PyMuPDF
+numpy
+torch
+Pillow
+transformers
+faiss-cpu
+scikit-learn
+langchain-text-splitters
+sentencepiece
+protobuf
+tokenizers
+torchvision
